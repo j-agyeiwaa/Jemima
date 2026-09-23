@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    background: #D2E7D4;
+    color: #1B4332;
+    width: 800px;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: auto;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+button {
+    background: #1B4332;
+    color: #D2E7D4;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 100px;
+    margin: 15px 5px;
+    padding: 4px 0;
+}
+
+.skill-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
