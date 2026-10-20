@@ -34,6 +34,10 @@ button {
     padding: 4px 0;
 }
 
+button:hover {
+    background: #1E6B4B;
+}
+
 .skill-badges {
     display: flex;
     justify-content: center;
